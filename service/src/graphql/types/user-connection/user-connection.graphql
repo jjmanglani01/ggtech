@@ -1,0 +1,5 @@
+type UserConnection {
+  totalCount: Int!
+  pageInfo: PageInfo
+  nodes: [User!]!
+}

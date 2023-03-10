@@ -1,0 +1,8 @@
+extend type Query {
+  users(
+    limit: Int
+    offset: Int
+    search: String
+    ids: [Int!]
+  ): UserConnection!
+}

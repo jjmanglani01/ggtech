@@ -1,0 +1,8 @@
+extend type Query {
+  findusers(
+    limit: Int
+    offset: Int
+    search: String
+    radius: Int!
+  ): UserConnection!
+}

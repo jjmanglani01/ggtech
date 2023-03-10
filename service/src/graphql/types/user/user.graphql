@@ -1,0 +1,10 @@
+type User {
+  id: Int!
+  first_name: String!
+  last_name: String!
+  gender: String!
+
+  # calculated
+  full_name: String!
+  location: GeoLocation
+}
