@@ -3,8 +3,13 @@
 ######################################################
 schema {
   query: Query
+  mutation: Mutation
 }
 
 type Query {
+  version: String
+}
+
+type Mutation {
   version: String
 }

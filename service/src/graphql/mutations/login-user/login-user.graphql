@@ -1,0 +1,12 @@
+extend type Mutation {
+  loginUser(input: LoginUserInput!): LoginUserResponse!
+}
+
+input LoginUserInput {
+  user_id: Int
+  password: String
+}
+
+type LoginUserResponse {
+  isLoggedIn: Boolean
+}
